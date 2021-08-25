@@ -13,16 +13,16 @@
   <h1> Expense Tracker</h1>
     <div class="balance-container">
     <h2> Current balance: </h2>
-    <h2 id='balance'>Rs 0 </h2> 
+    <h2 id='balance'>Rs 1000 </h2> 
   </div>
   <div class='cashflow'>
     <div class='income-container'>
       <h2>Income</h2>
-      <div id='income'> Rs 0 </div>
+      <div id='income'> Rs 1500 </div>
   </div>
   <div class = 'expenditure-container'>
     <h2>Expenditure</h2>
-    <div id='expenditure'> Rs 0 </div>
+    <div id='expenditure'> Rs 500 </div>
   </div>
 </div>
   <div class = 'transaction-container'>
@@ -35,7 +35,7 @@
 
   <div class= 'form-container'>
     <h2> Add transaction:</h2>
-    <form>
+    <form onsubmit='return false;'>
       <label for='name'>Transaction name: </label>
       <input id='name' type ='text'>
       <label for='amount'>Transaction amount: </label>
