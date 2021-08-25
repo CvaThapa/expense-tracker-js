@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+  <html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content = "width = device-width, initial-scale=1">
+    <title>Expense Tracker</title>
+
+    <link rel = "stylesheet" href="style.css">
+   
+  </head>
+  <body>
+    <div class='tracker'>
+  <h1> Expense Tracker</h1>
+    <div class="balance-container">
+    <h2> Current balance: </h2>
+    <h2 id='balance'>Rs 1000 </h2> 
+  </div>
+  <div class='cashflow'>
+    <div class='income-container'>
+      <h2>Income</h2>
+      <div id='income'> Rs 1500 </div>
+  </div>
+  <div class = 'expenditure-container'>
+    <h2>Expenditure</h2>
+    <div id='expenditure'> Rs 500 </div>
+  </div>
+</div>
+  <div class = 'transaction-container'>
+    <h2> Transactions: </h2>
+    <ul class = 'transaction'>
+    
+  </ul>
+  </div>
+  </div>
+
+  <div class= 'form-container'>
+    <h2> Add transaction:</h2>
+    <form onsubmit='return false;'>
+      <label for='name'>Transaction name: </label>
+      <input id='name' type ='text'>
+      <label for='amount'>Transaction amount: </label>
+      <input id='amount' type ='number'>
+      <button id='incbt'>Add Income</button>
+      <button id= 'expbt'>Add Expenditure</button>
+    </form>
+  </div>
+</div>
+ <script src='script.js'></script>
+  </body>
+  </html>
