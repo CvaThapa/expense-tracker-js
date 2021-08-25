@@ -1,8 +1,8 @@
 
 var state = {
-	balance: 10,
-	income: 10,
-	expenditure: 10,
+	balance: 0,
+	income: 0
+	expenditure: 0,
 	transaction: []
 };
 var balance_elmt = document.querySelector('#balance');
